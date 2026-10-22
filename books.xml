@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookCatalogue>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+	<book category="">
+		<name></name>
+		<author></author>
+		<description></description>
+		<year></year>
+		<code></code>
+		<quantity></quantity>
+		<unitPrice></unitPrice>
+	</book>
+</bookCatalogue>
