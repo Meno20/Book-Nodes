@@ -1,67 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
 
 <bookCatalogue>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Memoir">
+		<name>Title: The Showgirl and the Prince</name>
+		<author>Author: Ruthie Henshall</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>Year Published: 2026</year>
+		<code>Code: 752-89</code>
+		<quantity>Quantity: 10</quantity>
+		<unitPrice>Price: £16.56</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Contemporary">
+		<name>Open Water</name>
+		<author>Caleb Azumah Nelson</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2021</year>
+		<code>561-74</code>
+		<quantity>13</quantity>
+		<unitPrice>£12.86</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Poetry and self-help">
+		<name>All That You Deserve</name>
+		<author>Jacqueline Whitney</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2021</year>
+		<code>957-25</code>
+		<quantity>72</quantity>
+		<unitPrice>£10.22</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Fantasy">
+		<name>I'll Find You Where the Timeline Ends</name>
+		<author>Kylie Lee Baker</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2025</year>
+		<code>329-80</code>
+		<quantity>34</quantity>
+		<unitPrice>£29.99</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Historical Fiction">
+		<name>A Far-Flung Life</name>
+		<author>M.L.Stedman</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2026</year>
+		<code>647-54</code>
+		<quantity>68</quantity>
+		<unitPrice>£17.55</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Contemporary">
+		<name>Moonrise</name>
+		<author>Sarah Crossan</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2017</year>
+		<code>876-74</code>
+		<quantity>2</quantity>
+		<unitPrice>£13.24</unitPrice>
 	</book>
-	<book category="">
-		<name></name>
-		<author></author>
+	<book category="Fantasy">
+		<name>The Astral Library</name>
+		<author>Kate Quinn</author>
 		<description></description>
-		<year></year>
-		<code></code>
-		<quantity></quantity>
-		<unitPrice></unitPrice>
+		<year>2026</year>
+		<code>254-80</code>
+		<quantity>56</quantity>
+		<unitPrice>£23.99</unitPrice>
 	</book>
+	<book category="Dark Academia">
+		<name>And He Shall Appear</name>
+		<author>Kate van der Borgh</author>
+		<description></description>
+		<year>2024</year>
+		<code>734-24</code>
+		<quantity>80</quantity>
+		<unitPrice>£13.24</unitPrice>
+	</book>
+	<book category="Dystopian Fiction">
+		<name>Parable of the Sower</name>
+		<author>Octavia E.Butler</author>
+		<description></description>
+		<year>1993</year>
+		<code>104-50</code>
+		<quantity>15</quantity>
+		<unitPrice>£23.99</unitPrice>
+	</book>
+	<book category="Historical Fiction">
+		<name>The Seven Daughters of Dupree</name>
+		<author>Nikesha Elise Williams</author>
+		<description></description>
+		<year>2026</year>
+		<code>364-54</code>
+		<quantity>8</quantity>
+		<unitPrice>£16.56</unitPrice>
+	</book>
+	
 </bookCatalogue>

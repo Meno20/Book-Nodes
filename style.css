@@ -1,0 +1,21 @@
+bookCatalogue{
+	
+}
+book{
+	display:block;
+	border: 1px solid red;
+	margin:0.5em;
+	padding:0.5em;
+	background-color:black;
+	color:white;
+	width: 20%
+}
+
+name, author, description, year, code, quantity, unitPrice{	
+    display:block;
+	margin-left:10px
+}
+ name{
+    font-size:25px;
+     
+}
