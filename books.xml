@@ -4,13 +4,13 @@
 
 <bookCatalogue>
 	<book category="Memoir">
-		<name>Title: The Showgirl and the Prince</name>
-		<author>Author: Ruthie Henshall</author>
+		<name>The Showgirl and the Prince</name>
+		<author>Ruthie Henshall</author>
 		<description></description>
-		<year>Year Published: 2026</year>
-		<code>Code: 752-89</code>
-		<quantity>Quantity: 10</quantity>
-		<unitPrice>Price: £16.56</unitPrice>
+		<year>2026</year>
+		<code>752-89</code>
+		<quantity>10</quantity>
+		<unitPrice>£16.56</unitPrice>
 	</book>
 	<book category="Contemporary">
 		<name>Open Water</name>
