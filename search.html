@@ -12,8 +12,8 @@
 				<p>Book Inventery System</p>
 			</div>
 			<nav class="menu-bar"> <!-- Top menu bar (move between pages) --!>
-				<a href="index.html" class="active">Catalog</a> <!--links index page (cuurent) --!>
-				<a href="search.html">Search Books</a> <!--links search page --!>
+				<a href="index.html">Catalog</a> <!--links index page (cuurent) --!>
+				<a href="search.html" class="active">Search Books</a> <!--links search page --!>
 			</nav>
 			<div class="slogan-badge">Knowledge<br>Grows Here</div>
 		</header>
@@ -21,13 +21,41 @@
 			<div class="search-main">
 				<p> FIND YOUR NEXT CHAPTER</p>
 				<h1>A good book is just a code away.</h1>
-				<p>Have a book code? Find the details, price and availability in a moment.</p>
+				<p class="search-text">Have a book code? Find the details, price and availability in a moment.</p>
 				
+			
+				<div class="search-box">
+					<label for="SearchInput">Enter Book Code (e.g.101-05)</label>
+					<div class="search-rows">
+						<input type="text" id="searchInput" placeholder="101-05" maxlength="6">
+						<button onclick="searchBook()">Search</button>
+					</div>
+					<p>Use the code exactly as shown in the catalog, Including the hypen.</p>
+				</div>
+			<!-- <div id="searchResults"></div> --!>
 			</div>
-			<div class="search-box">
-				<label for="SearchInput">Enter Book Code (e.g.101-05)</label>
-			</div>
+			<aside class="search-sidebar">
+				<p class="sidebar-label"> A SHORTCUT TO YOUR SHELF</p>
+				<h3>Every book has its own address.</h3>
+				<p>Book codes make finding the right title simple. You'll find one beside every book in the catalog.</p>
+			
+				<div class="code-display">
+					<div class="code">101-05</div>
+					<div class="code-parts">CATEGORY &nbsp; BOOK NUMBER</div>
+				</div>
+				<ol class="steps-list">
+					<li><span>01</span>Find a code in the full catalog.</li>
+					<li><span>02</span>Enter all five digits and the hypen.</li>
+					<li><span>03</span>See the price and stock at a glance.</li>
+				</ol>
+			</aside>
 		</div>
 		
+		<footer class="footer">
+			<span>GreenLeaf Books./Stories worth keeping.</span>
+			<span>Thoughtfully curated. Endlessly explored.</span>
+		</footer>
+		
+	
 	</body>
 </html>

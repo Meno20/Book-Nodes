@@ -110,3 +110,134 @@ body{
 	font-size:28px;
 	margin-bottom:25px;
 }
+
+/* ---------------- */
+
+/* ---- SEARCH PAGE ---- */
+.search-wrapper{
+	display:grid;
+	grid-template-columns:2fr 1fr;
+	gap:30px;
+	padding:40px;
+}
+.search-main{
+	background:transparent;
+}
+.search-main p{
+	color:#b84a1a;
+	font-size:13px;
+	letter-spacing:2px;
+	margin-bottom:10px;
+}
+.search-main h1{
+	color:#2d4a1f;
+	margin-bottom:10px;
+	font-size:42px;
+}
+.search-text{
+	color:#5a4a2a;
+	margin-bottom:25px;
+	font-size:15px;
+}
+.search-box{
+	background:#faf5e6;
+	border: 1px solid #d4c8a8;
+	border-radius:10px;
+	padding:20px;
+	margin-bottom:25px;
+}
+.search-box label{
+	display:block;
+	color:#2d4a1f;
+	font-size:14px;
+	margin-bottom:8px;
+}
+.search-row{
+	display:flex;
+	gap:10px
+}
+.search-rows input{
+	flex:1;
+	padding:12px;
+	border:1px solid #c9b88a;
+	font-size:16px;
+	background:#fff;
+}
+.search-rows button{
+	background:#2d4a1f;
+	color:#f5d98a;
+	border:none;
+	padding:12px 24px;
+	border-radius:6px;
+	cursor:pointer;
+	font-size:15px;
+}
+.search-rows button:hover{
+	background:#3a5a2a;
+}
+.search-sidebar{
+	background:#2d4a1f;
+	color:#f5efe0;
+	border-radius:10px;
+	padding:25px;
+	height:fit-content;
+}
+.sidebar-label{
+	color:#c9a86a;
+	font-size:11px;
+	letter-spacing:2px;
+	margin-bottom:10px;
+}
+.search-sidebar h3{
+	color:#f5d98a;
+	font-size:22px;
+	margin-bottom:15px;
+}
+.search-sidebar p{
+	font-size:14px;
+	line-height:1.6;
+	margin-bottom:20px;
+}
+.code-display{
+	background:#1a2d10;
+	padding:20px;
+	border-radius:8px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.code-display .code{
+	font-size:32px;
+	color:#c9a86a;
+	font-weight:bold;
+}
+.code-display .code-parts{
+	font-size:10px;
+	letter-spacing:2px;
+	margin-top:8px;
+	color:#a8926a;
+}
+.steps-list{
+	list-style:none;
+}
+.steps-list li{
+	padding:8px 0;
+	font-size:13px;
+	border-bottom:1px solid #3a5a2a;
+}
+.steps-list li span{
+	color:#c9a86a;
+	font-weight:bold;
+	margin-right:10px;
+	
+}
+.footer{
+	background:#3a2410;
+	color:#c9b37a;
+	padding:15px 40px;
+	display:flex;
+	justify-content:space-between;
+	font-size:13px;
+}
+
+
+
