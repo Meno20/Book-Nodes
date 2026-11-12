@@ -1,23 +1,24 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<title></title>
+	<title>Web Application Development CA1 - Menomi Gamage</title>
+	<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header class="header">
 			<div class="logo">
-				<img src="">
-				<h1>GreenLeaf Books</h1>
+				<img src=""> <!-- Source link for logo image --!>
+				<h1>GreenLeaf Books</h1> <!-- The platform name --!>
 				<p>Book Inventery System</p>
 			</div>
-			<nav class="menu-bar">
-				<a href="" class="active">Catalog</a>
-				<a href="">Search Books</a>
+			<nav class="menu-bar"> <!-- Top menu bar (move between pages) --!>
+				<a href="index.html" class="active">Catalog</a> <!--links index page (cuurent) --!>
+				<a href="search.html">Search Books</a> <!--links search page --!>
 			</nav>
-			<div class="solgan-badge">Knowledge<br>Grows Here</div>
+			<div class="slogan-badge">Knowledge<br>Grows Here</div>
 		</header>
 		<div class="main-body">
-			<aside class="side-bar">
+			<aside class="side-bar"> <!-- Side bar for book filters by genre --!>
 				<a href="#" class="active" onclick="filterByCategory('All',this);return false;">All books</a>
 				<a href="#" onclick="filterByCategory('Memoir', this); return false;">Memoir</a> 
 				<a href="#" onclick="filterByCategory('Historical Fiction', this); return false;">Historical Fiction</a> 
@@ -30,7 +31,7 @@
 			</aside>
 			
 			<main class="content">
-				<h2 class="title-content">Full Catalog</h2>
+				<h2 class="title-content">Full Catalog</h2> <!--Page heading --!>
 				<div class="grid" id="bookGrid"></div>
 			<main>
 		</div>
