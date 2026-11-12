@@ -10,7 +10,8 @@
 		<year>2026</year>
 		<code>752-89</code>
 		<quantity>10</quantity>
-		<unitPrice>£16.56</unitPrice>
+		<unitPrice>16.56</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Contemporary">
 		<name>Open Water</name>
@@ -19,7 +20,8 @@
 		<year>2021</year>
 		<code>561-74</code>
 		<quantity>13</quantity>
-		<unitPrice>£12.86</unitPrice>
+		<unitPrice>12.86</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Poetry and self-help">
 		<name>All That You Deserve</name>
@@ -28,7 +30,8 @@
 		<year>2021</year>
 		<code>957-25</code>
 		<quantity>72</quantity>
-		<unitPrice>£10.22</unitPrice>
+		<unitPrice>10.22</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Fantasy">
 		<name>I'll Find You Where the Timeline Ends</name>
@@ -37,7 +40,8 @@
 		<year>2025</year>
 		<code>329-80</code>
 		<quantity>34</quantity>
-		<unitPrice>£29.99</unitPrice>
+		<unitPrice>29.99</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Historical Fiction">
 		<name>A Far-Flung Life</name>
@@ -46,7 +50,8 @@
 		<year>2026</year>
 		<code>647-54</code>
 		<quantity>68</quantity>
-		<unitPrice>£17.55</unitPrice>
+		<unitPrice>17.55</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Contemporary">
 		<name>Moonrise</name>
@@ -55,7 +60,8 @@
 		<year>2017</year>
 		<code>876-74</code>
 		<quantity>2</quantity>
-		<unitPrice>£13.24</unitPrice>
+		<unitPrice>13.24</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Fantasy">
 		<name>The Astral Library</name>
@@ -64,7 +70,8 @@
 		<year>2026</year>
 		<code>254-80</code>
 		<quantity>56</quantity>
-		<unitPrice>£23.99</unitPrice>
+		<unitPrice>23.99</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Dark Academia">
 		<name>And He Shall Appear</name>
@@ -73,7 +80,8 @@
 		<year>2024</year>
 		<code>734-24</code>
 		<quantity>80</quantity>
-		<unitPrice>£13.24</unitPrice>
+		<unitPrice>13.24</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Dystopian Fiction">
 		<name>Parable of the Sower</name>
@@ -82,7 +90,8 @@
 		<year>1993</year>
 		<code>104-50</code>
 		<quantity>15</quantity>
-		<unitPrice>£23.99</unitPrice>
+		<unitPrice>23.99</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	<book category="Historical Fiction">
 		<name>The Seven Daughters of Dupree</name>
@@ -91,7 +100,8 @@
 		<year>2026</year>
 		<code>364-54</code>
 		<quantity>8</quantity>
-		<unitPrice>£16.56</unitPrice>
+		<unitPrice>16.56</unitPrice>
+		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
 	</book>
 	
 </bookCatalogue>
