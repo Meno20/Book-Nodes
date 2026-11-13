@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WebApp CA1-MenomiGamage-25376776</title>
+		<meta charset="UTF-82">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WebApp(Weather App) CA1-MenomiGamage-25376776</title>
+		<link rel="stylesheet" href="style.css">
 		
 	</head>
 	<body>
-		<h1>Weather App</h1>
-		<input type="text" id="city" placeholder="Enter city name of choice">
-		<button onclick="getWeather()">Get Weather</button>
-		
-		<pre id="result"></pre>
+		<div class="container">
+			<header class="header">
+				<h1>Weather App</h1>
+				<p>Search a city of choice for live weather data</p>
+			</header>
+			<div class="search-box">
+				<input type="text" id="city" placeholder="Enter city name of choice">
+				<button onclick="getWeather()">Get Weather</button>
+			</div>
+			<div class="result-box" id="resultBox">
+				<pre id="result"></pre>
+			</div>
+		</div>
 		<script src="script.js"></script>
 		
 	</body>

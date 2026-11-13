@@ -1,0 +1,127 @@
+body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(135deg, #118AB2 0%, #06D6A0 50%, #FFD166 100%); /*Gradient background */
+    background-attachment:fixed;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:520px;
+    background:rgba(255,255,255,0.92);
+    border-radius:24px;
+    padding:40px 32px 32px;
+}
+
+/* ---- HEADER ---- */
+.header{
+    text-align:center;
+    margin-bottom:28px;
+}
+.header h1{
+    font-size:2rem;
+    font-weight:800;
+    color:#FF7F50; 
+}
+.header p{
+    margin-top:6px;
+    font-size:0.92rem;
+    color:#118AB2;
+}
+
+/* ---- SEARCH BOX ---- */
+.search-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:24px;
+}
+.search-box input{
+    flex:1;
+    padding:14px 18px;
+    font-size:1rem;
+    border:2px solid #118AB2;
+    border-radius:14px;
+    color:#333;
+}
+.search-box button{
+    padding:14px 22px;
+    font-size:1rem;
+    font-weight:700;
+    border-radius:14px;
+    cursor:pointer;
+}
+.search-box:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 18px rgba(6,214,160,0.4);
+}
+
+/* ---- RESULTS DISPLAY ---- */
+.result-box{
+    border:2px dashed #ffD166;
+    border-radius:16px;
+    padding:20px;
+    min-height:120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.result-box pre{
+    width:100%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:0.82rem;
+    line-height:1.55;
+    color:#118AB2;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    text-align:left;
+}
+
+/* --- Display layout --- */
+.weather-card{
+    width:100%;
+}
+.card-top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:20px;
+}
+.weather-icon{
+    width:80px;
+    height:80px;
+}
+.card-main h2{
+    font-size:1.4rem;
+    color:#118AB2;
+    margin-bottom:2px;
+}
+.card-main .temp{
+    font-size:2.4rem;
+    font-weight:800;
+}
+.card-details{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+.detail{
+    border-radius:12px;
+    padding:12px 14px;
+    display:flex;
+    flex-direction:column;
+}
+.detail .label{
+    font-size:0.75rem;
+    letter-spacing:0.5px;
+    color:#118AB2;
+    font-weight:700;
+    margin-bottom:4px;
+}
+.detail .value{
+    font-size:1.1rem;
+    font-weight:600;
+}
