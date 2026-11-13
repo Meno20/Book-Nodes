@@ -36,16 +36,15 @@ async function displayCatalog(filterCategory = 'All'){
 		const name = books[i].getElementsByTagName('name')[0].textContent;
 		const qty = books[i].getElementsByTagName('quantity')[0].textContent;
 		const price = parseFloat(books[i].getElementsByTagName('unitPrice')[0].textContent);
-		let imgUrl = 'https://placehold.co/150x150/cccccc/000000?text=No+Cover';
-		const imgNode = books[i].getElementsByTagName('image')[0];
-		if(imgNode){
-			imgUrl = imgNode.textContent;
+		let imgUrl = 'images/placeholder.jpg';
+		if(books[i].getElementsByTagName('image').length > 0){
+			imgUrl = books[i].getElementsByTagName('image')[0].textContent.trim();
 		}
 		const stock = getQuantityStatus(qty);
 		
 		grid.innerHTML += `
 			<div class="book-card">
-			<img src"${imgUrl}" class="book-cover" alt="${name}">
+			<img src="${imgUrl}" class="book-cover" alt="${name}">
 				<div class="book-cover">${name}</div>
 				<span class="category-tag">${category}</span>
 				<div class="book-title">${name}</div>
@@ -114,35 +113,47 @@ async function searchBook(){
 		const desc = found.getElementsByTagName('description')[0].textContent;
 		const qty = found.getElementsByTagName('quantity')[0].textContent;
 		const price = parseFloat(found.getElementsByTagName('unitPrice')[0].textContent);
+		const author = found.getElementsByTagName('author')[0].textContent;
+		let imgUrl = 'images/placeholder.jpg';
+		if(found.getElementsByTagName('image').length > 0){
+			imgUrl = found.getElementsByTagName('image')[0].textContent.trim();
+		}
 		const stock = getQuantityStatus(qty);
 
 		resultDiv.innerHTML = `
 			<p class="result-label">MATCH FOUND / ${code}</p>
 			<div class="result-card">
 				<div class="result-cover">
-					<div style="font-size:10px;letter-spacing:2px;color:#c9a86a;">GREENLEAF COLLECTION</DIV>
+					<span> A little shelf magic. We found Your book.</span>
+					<span class="stock-badge ${stock.class}">${stock.text}</span>
 					
-					<div style="font-size:18px;margin:20px 0;">${name.toUpperCase()}</div>
-					<div style="font-size:11px;color:#a896a;">BOOK CODE: ${code}</div>
 				</div>
-				<div class="result-details">
-					<h2>${name}</h2>
-					<p style="color:#5a4a2a;margin-bottom:15px;">${desc}</p>
-					<span class="stock-badge ${stock.class}">${stock.text} (${qty} available)</span>
-					<div class="result-meta">
-						<div>
-							<div class="meta-label">CATEGORY</div>
-							<div class="meta-value">${category}</div>
-						</div>
-						<div>
-							<div class="meta-label">BOOK CODE</div>
-							<div class="meta-value">${code}</div>
-						</div>
-						<div>
-							<div class="meta-label">PRICE</div>
-							<div class="meta-value price-value">£ ${price.toFixed(2)}</div>
+				<div class="result-body">
+					<img src="${imgUrl}" class="result-cover-img" alt="${name}">
+					
+					<div class="result-details">
+						<h2 class="result-title">${name}</h2>
+						<p class="result-author">by ${author}</p>
+						<p class="result-desc">${desc}</p>
+					
+						<div class="result-meta">
+							<div>
+								<div class="meta-label">CATEGORY</div>
+								<div class="meta-value">${category}</div>
+							</div>
+							<div>
+								<div class="meta-label">BOOK CODE</div>
+								<div class="meta-value">${code}</div>
+							</div>
+							<div>
+								<div class="meta-label">PRICE</div>
+								<div class="meta-value price-value">£ ${price.toFixed(2)}</div>
+							</div>
 						</div>
 					</div>
+				</div>
+				<div class="results-footer">
+					Available now. Find this title in the ${category} collection.
 				</div>
 			</div>`;
 	}else{

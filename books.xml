@@ -11,7 +11,7 @@
 		<code>752-89</code>
 		<quantity>10</quantity>
 		<unitPrice>16.56</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/memoir.jpg</image> 
 	</book>
 	<book category="Contemporary">
 		<name>Open Water</name>
@@ -21,7 +21,7 @@
 		<code>561-74</code>
 		<quantity>13</quantity>
 		<unitPrice>12.86</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		 <image>images/contemporary.jpg</image>
 	</book>
 	<book category="Poetry and self-help">
 		<name>All That You Deserve</name>
@@ -31,7 +31,7 @@
 		<code>957-25</code>
 		<quantity>72</quantity>
 		<unitPrice>10.22</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/poetry.jpg</image>
 	</book>
 	<book category="Fantasy">
 		<name>I'll Find You Where the Timeline Ends</name>
@@ -41,7 +41,7 @@
 		<code>329-80</code>
 		<quantity>34</quantity>
 		<unitPrice>29.99</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/fantasy.jpg</image> 
 	</book>
 	<book category="Historical Fiction">
 		<name>A Far-Flung Life</name>
@@ -51,7 +51,7 @@
 		<code>647-54</code>
 		<quantity>68</quantity>
 		<unitPrice>17.55</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/historical.jpg</image>  
 	</book>
 	<book category="Contemporary">
 		<name>Moonrise</name>
@@ -61,7 +61,7 @@
 		<code>876-74</code>
 		<quantity>2</quantity>
 		<unitPrice>13.24</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		 <image>images/contemporary.jpg</image> 
 	</book>
 	<book category="Fantasy">
 		<name>The Astral Library</name>
@@ -71,7 +71,7 @@
 		<code>254-80</code>
 		<quantity>56</quantity>
 		<unitPrice>23.99</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/fantasy.jpg</image> 
 	</book>
 	<book category="Dark Academia">
 		<name>And He Shall Appear</name>
@@ -81,7 +81,7 @@
 		<code>734-24</code>
 		<quantity>80</quantity>
 		<unitPrice>13.24</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/darkA.jpg</image>  
 	</book>
 	<book category="Dystopian Fiction">
 		<name>Parable of the Sower</name>
@@ -91,7 +91,7 @@
 		<code>104-50</code>
 		<quantity>15</quantity>
 		<unitPrice>23.99</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/dystopian.jpg</image> 
 	</book>
 	<book category="Historical Fiction">
 		<name>The Seven Daughters of Dupree</name>
@@ -101,7 +101,243 @@
 		<code>364-54</code>
 		<quantity>8</quantity>
 		<unitPrice>16.56</unitPrice>
-		<image>https://placehold.co/150x150/2d4a1f/f5d98a?text=Forest</image> 
+		<image>images/historical.jpg</image>  
 	</book>
+	 <!-- 11. Memoir -->
+    <book category="Memoir">
+        <name>Educated</name>
+        <author>Tara Westover</author>
+        <description>An inspiring memoir about a young woman who grows up in an isolated family and pursues education, independence, and a different understanding of the world.</description>
+        <year>2018</year>
+        <code>218-89</code>
+        <quantity>25</quantity>
+        <unitPrice>14.99</unitPrice>
+        <image>images/memoir.jpg</image>
+    </book>
+
+    <!-- 12. Contemporary -->
+    <book category="Contemporary">
+        <name>Normal People</name>
+        <author>Sally Rooney</author>
+        <description>A compelling story following two young people as their relationship develops through friendship, love, social differences, and the challenges of growing up.</description>
+        <year>2018</year>
+        <code>482-74</code>
+        <quantity>19</quantity>
+        <unitPrice>11.99</unitPrice>
+         <image>images/contemporary.jpg</image>
+    </book>
+
+    <!-- 13. Poetry and Self-Help -->
+    <book category="Poetry and self-help">
+        <name>Milk and Honey</name>
+        <author>Rupi Kaur</author>
+        <description>A collection of poetry exploring love, heartbreak, trauma, healing, femininity, and personal strength through short and expressive writing.</description>
+        <year>2014</year>
+        <code>693-25</code>
+        <quantity>31</quantity>
+        <unitPrice>12.50</unitPrice>
+        <image>images/poetry.jpg</image>
+    </book>
+
+    <!-- 14. Fantasy -->
+    <book category="Fantasy">
+        <name>The Night Circus</name>
+        <author>Erin Morgenstern</author>
+        <description>A mysterious circus appears without warning, becoming the setting for a magical competition between two young illusionists whose lives become unexpectedly intertwined.</description>
+        <year>2011</year>
+        <code>835-80</code>
+        <quantity>42</quantity>
+        <unitPrice>15.75</unitPrice>
+        <image>images/fantasy.jpg</image> 
+    </book>
+
+    <!-- 15. Historical Fiction -->
+    <book category="Historical Fiction">
+        <name>The Book Thief</name>
+        <author>Markus Zusak</author>
+        <description>Set in Nazi Germany, this emotional story follows a young girl who discovers comfort and courage through books during a time of fear and uncertainty.</description>
+        <year>2005</year>
+        <code>176-54</code>
+        <quantity>17</quantity>
+        <unitPrice>13.99</unitPrice>
+        <image>images/historical.jpg</image> 
+    </book>
+	<!-- 16. Dark Academia -->
+    <book category="Dark Academia">
+        <name>The Secret History</name>
+        <author>Donna Tartt</author>
+        <description>A psychological literary mystery following a group of university students whose fascination with classical studies leads them into secrecy, obsession, and tragedy.</description>
+        <year>1992</year>
+        <code>529-24</code>
+        <quantity>22</quantity>
+        <unitPrice>18.50</unitPrice>
+        <image>images/darkA.jpg</image> 
+    </book>
+
+    <!-- 17. Dystopian Fiction -->
+    <book category="Dystopian Fiction">
+        <name>The Hunger Games</name>
+        <author>Suzanne Collins</author>
+        <description>In a society divided by power and privilege, a young girl enters a televised fight for survival that challenges the authority of the ruling government.</description>
+        <year>2008</year>
+        <code>941-50</code>
+        <quantity>37</quantity>
+        <unitPrice>14.25</unitPrice>
+        <image>images/dystopian.jpg</image> 
+    </book>
+
+    <!-- 18. Memoir -->
+    <book category="Memoir">
+        <name>Becoming</name>
+        <author>Michelle Obama</author>
+        <description>A personal account of childhood, family, career, and public life, offering reflections on identity, personal growth, and the experiences that shape a person's journey.</description>
+        <year>2018</year>
+        <code>307-89</code>
+        <quantity>29</quantity>
+        <unitPrice>19.99</unitPrice>
+        <image>images/memoir.jpg</image>
+    </book>
+
+    <!-- 19. Contemporary -->
+    <book category="Contemporary">
+        <name>One Day</name>
+        <author>David Nicholls</author>
+        <description>A heartfelt story revisiting two friends on the same date each year as their lives change through love, friendship, missed opportunities, and unexpected events.</description>
+        <year>2009</year>
+        <code>614-74</code>
+        <quantity>14</quantity>
+        <unitPrice>12.75</unitPrice>
+        <image>images/contemporary.jpg</image>
+    </book>
+
+    <!-- 20. Poetry and Self-Help -->
+    <book category="Poetry and self-help">
+        <name>The Sun and Her Flowers</name>
+        <author>Rupi Kaur</author>
+        <description>A reflective poetry collection exploring growth, loss, migration, love, and healing through imagery inspired by nature and personal experiences.</description>
+        <year>2017</year>
+        <code>753-25</code>
+        <quantity>46</quantity>
+        <unitPrice>13.50</unitPrice>
+        <image>images/poetry.jpg</image>
+
+    <!-- 21. Fantasy -->
+    <book category="Fantasy">
+        <name>A Court of Thorns and Roses</name>
+        <author>Sarah J. Maas</author>
+        <description>A young huntress is drawn into a dangerous magical realm after killing a mysterious creature, where romance, political intrigue, and ancient powers await.</description>
+        <year>2015</year>
+        <code>864-80</code>
+        <quantity>33</quantity>
+        <unitPrice>16.99</unitPrice>
+        <image>images/fantasy.jpg</image> 
+    </book>
+
+    <!-- 22. Historical Fiction -->
+    <book category="Historical Fiction">
+        <name>All the Light We Cannot See</name>
+        <author>Anthony Doerr</author>
+        <description>During the Second World War, the lives of a blind French girl and a German boy intersect in a story about courage, humanity, and hope.</description>
+        <year>2014</year>
+        <code>195-54</code>
+        <quantity>21</quantity>
+        <unitPrice>15.99</unitPrice>
+        <image>images/historical.jpg</image> 
+    </book>
+
+    <!-- 23. Dark Academia -->
+    <book category="Dark Academia">
+        <name>Babel</name>
+        <author>R. F. Kuang</author>
+        <description>Set in an alternate nineteenth-century Oxford, this dark academic fantasy explores language, translation, power, colonialism, and rebellion within a prestigious institution.</description>
+        <year>2022</year>
+        <code>426-24</code>
+        <quantity>18</quantity>
+        <unitPrice>20.99</unitPrice>
+        <image>images/darkA.jpg</image> 
+    </book>
+
+    <!-- 24. Dystopian Fiction -->
+    <book category="Dystopian Fiction">
+        <name>The Handmaid's Tale</name>
+        <author>Margaret Atwood</author>
+        <description>In a totalitarian society where women's freedoms have been taken away, one woman's story reveals the dangers of oppression, control, and resistance.</description>
+        <year>1985</year>
+        <code>572-50</code>
+        <quantity>26</quantity>
+        <unitPrice>14.50</unitPrice>
+        <image>images/dystopian.jpg</image> 
+    </book>
+
+    <!-- 25. Memoir -->
+    <book category="Memoir">
+        <name>When Breath Becomes Air</name>
+        <author>Paul Kalanithi</author>
+        <description>A deeply moving memoir reflecting on life, mortality, purpose, and the meaning of existence through the experiences of a neurosurgeon facing a life-changing diagnosis.</description>
+        <year>2016</year>
+        <code>683-89</code>
+        <quantity>12</quantity>
+        <unitPrice>15.25</unitPrice>
+        <image>images/memoir.jpg</image>
+    </book>
+	<!-- 26. Contemporary -->
+    <book category="Contemporary">
+        <name>Where the Crawdads Sing</name>
+        <author>Delia Owens</author>
+        <description>A young woman raised in the isolated marshlands becomes the centre of a mysterious investigation, blending themes of nature, loneliness, love, and survival.</description>
+        <year>2018</year>
+        <code>849-74</code>
+        <quantity>41</quantity>
+        <unitPrice>14.99</unitPrice>
+         <image>images/contemporary.jpg</image>
+    </book>
+
+    <!-- 27. Poetry and Self-Help -->
+    <book category="Poetry and self-help">
+        <name>Devotions</name>
+        <author>Mary Oliver</author>
+        <description>A selected collection of poetry celebrating nature, everyday experiences, mindfulness, and the beauty of the natural world through thoughtful observations.</description>
+        <year>2017</year>
+        <code>932-25</code>
+        <quantity>16</quantity>
+        <unitPrice>17.99</unitPrice>
+        <image>images/poetry.jpg</image>
+    </book>
+
+    <!-- 28. Fantasy -->
+    <book category="Fantasy">
+        <name>The Hobbit</name>
+        <author>J. R. R. Tolkien</author>
+        <description>A reluctant hobbit joins a group of dwarves on an extraordinary journey filled with dragons, mysterious creatures, hidden treasures, and unexpected bravery.</description>
+        <year>1937</year>
+        <code>268-80</code>
+        <quantity>50</quantity>
+        <unitPrice>13.75</unitPrice>
+        <image>images/fantasy.jpg</image> 
+    </book>
+
+    <!-- 29. Historical Fiction -->
+    <book category="Historical Fiction">
+        <name>The Nightingale</name>
+        <author>Kristin Hannah</author>
+        <description>Set in occupied France during the Second World War, this emotional novel follows two sisters as they face difficult choices and extraordinary dangers.</description>
+        <year>2015</year>
+        <code>715-54</code>
+        <quantity>23</quantity>
+        <unitPrice>16.25</unitPrice>
+        <image>images/historical.jpg</image> 
+    </book>
+
+    <!-- 30. Dystopian Fiction -->
+    <book category="Dystopian Fiction">
+        <name>1984</name>
+        <author>George Orwell</author>
+        <description>In a society controlled by constant surveillance and propaganda, a man begins to question authority and seek truth in a world where independent thought is forbidden.</description>
+        <year>1949</year>
+        <code>391-50</code>
+        <quantity>35</quantity>
+        <unitPrice>12.99</unitPrice>
+        <image>images/dystopian.jpg</image> 
+    </book>
 	
 </bookCatalogue>
